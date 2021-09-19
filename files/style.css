@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
     max-width: 1200px;
     background-color: white;
-    border-right: 1px dashed #169297
+    border-right: 1px dashed #6fd6bf
 }
 
 a {
@@ -18,13 +18,13 @@ a {
 }
 
 #navigation {
-    background-color: #169297;
+    background-color: #6fd6bf;
     position: fixed;
     top: 0;
     width: 260px;
     margin: 0;
     height: 100%;
-    color: #FFFFFF;
+    color: #d2ccec;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center
