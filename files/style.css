@@ -14,7 +14,7 @@ body {
 }
 
 a {
-    color: #b187d4
+    color: #d2ccec
 }
 
 #navigation {
@@ -24,7 +24,7 @@ a {
     width: 260px;
     margin: 0;
     height: 100%;
-    color: #b187d4;
+    color: #FFFFFF;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center
@@ -122,7 +122,7 @@ a {
 
 #content h2 {
     margin-top: 35px;
-    color: #b187d4;
+    color: #d2ccec;
     text-transform: uppercase
 }
 
