@@ -201,19 +201,24 @@ h2#first {
 }
 
 .vertical-menu {
-  width: 200px; /* Set a width if you like */
+  width: 260px; /* Set a width if you like */
 }
 
 .vertical-menu a {
-  background-color: #d2ccec; /* Lila background color */
-  color: black; /* Black text color */
+  background-color: white; /* Lila background color */
+  color: #169297; /* Black text color */
+  font-weight: bold;
   display: block; /* Make the links appear below each other */
+  border-radius: 10px;
   padding: 12px; /* Add some padding */
   text-decoration: none; /* Remove underline from links */
+  border-width:1px; 
+  border-style:solid; 
+  border-color:#A1D3D5;
 }
 
 .vertical-menu a:hover {
-  background-color: #696676; /* Dark grey background on mouse-over */
+  background-color: #ccc; /* Dark grey background on mouse-over */
 }
 
 .vertical-menu a.active {
