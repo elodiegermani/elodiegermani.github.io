@@ -24,7 +24,7 @@ a {
     position: absolute;
     top: 0;
     width: 260px;
-    height: available;
+    height: content-box;
     margin: 0;
     color: #FFFFFF;
     padding-left: 20px;
