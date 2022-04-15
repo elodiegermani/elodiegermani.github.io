@@ -19,7 +19,7 @@ a {
 
 #navigation {
     background-color: #169297;
-    position: fixed;
+    position: relative;
     top: 0;
     width: 260px;
     margin: 0;
