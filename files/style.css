@@ -23,7 +23,8 @@ a {
     top: 0;
     width: 260px;
     margin: 0;
-    height: fill; 
+    min-height: auto; 
+    max-height: fill-available;
     color: #FFFFFF;
     padding-left: 20px;
     padding-right: 20px;
