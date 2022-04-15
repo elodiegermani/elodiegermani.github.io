@@ -21,7 +21,7 @@ a {
 
 #navigation {
     background-color: #169297;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 260px;
     margin: 0;
