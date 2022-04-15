@@ -19,11 +19,14 @@ a {
     color: #d2ccec
 }
 
-#navigation {
-    background-color: #169297;
+col {
     display: flex;
     flex-direction: column;
-	align-items: flex-start;
+    align-items: flex-start;
+}
+
+#navigation {
+    background-color: #169297;
     position: absolute;
     top: 0;
     width: 260px;
