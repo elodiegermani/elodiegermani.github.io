@@ -28,9 +28,6 @@ a {
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
-    overflow-y: scroll;
-    scrollbar-color: rebeccapurple green;
-    scrollbar-width: thin;
 }
 
 #navigation p {
@@ -227,4 +224,8 @@ h2#first {
 .vertical-menu a.active {
   background-color: #A1D3D5; /* Add a green color to the "active/current" link */
   color: white;
+}
+
+.scroller{
+    overflow:scroll;
 }
