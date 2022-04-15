@@ -10,6 +10,7 @@ body {
     margin: 0 auto;
     max-width: 1200px;
     background-color: white;
+    position: relative;
     border-right: 1px dashed #169297
 }
 
