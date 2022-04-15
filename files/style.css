@@ -27,7 +27,10 @@ a {
     color: #FFFFFF;
     padding-left: 20px;
     padding-right: 20px;
-    text-align: center
+    text-align: center;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
 }
 
 #navigation p {
