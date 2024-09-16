@@ -21,7 +21,7 @@
     .Rubrique{
     /*	position: relative;*/
     	font-size:x-large;
-    	color:#93bdc4;
+      color:#169297;
     	/*letter-spacing:2px;*/
     	font-weight:bold;
     	/*background:#CCC;*/
@@ -33,10 +33,11 @@
     	/*background:#CCC;*/
     }
     .SousRubrique{
+      font-size:large;
       font-weight:bold;
     	margin-left:10px;
-    	font-size:1.3em;
-      text-transform: uppercase
+      color:#93bdc4;
+      /*text-transform: uppercase*/
     }
 
 
