@@ -1,66 +1,308 @@
+<!doctype html>
+<html class="no-js" lang="en">
 
-<!DOCTYPE html>
-<html>
-   <head>
-      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-      <title>Elodie Germani</title>
-      <link rel="icon" href="img/index.jpg">
-      <link rel="stylesheet" href="files/style.css">
-      <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-   </head>
-   <body>
-      <div class="container">
-      <div id="navigation">
-            <div id="profile">
-               <a><img src="img/elodiegermani.png"></a>
-            </div>
-            <div id="contact">
-               <h1>
-               Elodie <span class="upper">GERMANI</span>
-               <br/>
-               <h2 id="title" class="italic">PhD student</h2>
-               <p>elodiegermani@gmail.com</p>
-               <p>Rennes, France</p>
-               <p class="link">
-                  <a href="https://scholar.google.com/citations?user=BTAAgQEAAAAJ&hl=fr"><img id="scholar" src="img/scholar.png" class="external"></a>
-               <a href="https://github.com/elodiegermani"><img id="github" src="img/github.png" class="external"></a>
-               <a href="https://gitlab.inria.fr/egermani"><img id="gitlab" src="img/gitlab.png" class="external"></a>
-               <a href="https://www.linkedin.com/in/elodie-germani-b861021a2/"><img id="linkedin" src="img/linkedin.png" class="external"></a>
-               <a href="https://twitter.com/ElodieGermani"><img id="twitter" src="img/twitter.png" class="external"></a>
-               </p>
-            </div>
-            <br/>
-            <div class="vertical-menu">
-              <a href="index.html" class="active">HOME</a>
-              <br/>
-              <a href="cv.html">CV</a>
-              <br/>
-              <a href="publications.html">PUBLICATIONS</a>
-              <br/>
-              <a href="projects.html">PROJECTS</a>
-              <br/>
-              <a href="mediation.html">OUTREACH</a>
-              <br/>
-            </div>
-            <small>© Inria / Photo B. Fourrier</small>
-      </div>
-      <div id="content">
-         <div class="scroller">
-         <div id="intro">
-            <h2 id="first">Welcome to my website! 👋</h2>
-            <p style="margin-bottom:0.5cm;">I am a postdoctoral researcher at <a href="https://www.ukbonn.de/">UniversitätKlinikum Bonn</a>, with <a href="https://albarqouni.github.io/">Prof. Albarqouni</a>. Previously, I did my PhD in the <a href="https://team.inria.fr/empenn/">Empenn</a> research unit at the <a href="https://www.irisa.fr/en">IRISA</a> laboratory in Rennes, under the supervision of Dr. <a href="http://camillemaumet.com">Camille MAUMET</a> and Prof. <a href="http://people.irisa.fr/Elisa.Fromont/">Elisa FROMONT</a> from <a href="https://team.inria.fr/lacodam/fr/">LACODAM</a> research team. </p>
-            <p style="margin-bottom:0.5cm;">My research focuses on exploring, modelling and building solutions to take into account the <b>variability of data in medical imaging</b>, particularly in machine learning studies. During my PhD, my goal was to facilitate the <b>re-use of data shared on public databases</b> by taking into account the different sources of variability. In the future, I would like to focus more in the use of real-world data and on the robustness of machine learning models to <b>dataset shifts and privacy attacks</b>. I am also interested in building <b>affordable</b> and <b>adaptable</b> solutions for an universal utility.</p>
-            <!-- <h2 id="first">History 📖</h2>
-            <p style="margin-bottom:1cm;"> After highschool, I started my journey in higher education with medicine school. After 4 years of studying medical science, passionated with biostatistics, I discovered bioinformatics and machine learning. I started a Master's degree in Bioinformatics and Genomics, specialized in Informatics and Integrative Biology. I realized a first internship at the <a href="http://www.ciml.univ-mrs.fr/fr">CIML</a> in Marseille with <a href="https://scholar.google.fr/citations?user=gzhZeOoAAAAJ&hl=fr">Dr. Hugues Lelouard</a> where I developed a Shiny App for analyzing microscopy images. After that, I started an internship with Dr. <a href="http://camillemaumet.com">Camille MAUMET</a> at <a href="https://www.irisa.fr/en">IRISA/INRIA Rennes</a> laboratory. During this internship, I studied analytical variability and the impact of sample sizes. In 2021, I started a PhD with Dr. <a href="http://camillemaumet.com">Camille MAUMET</a> and Prof. <a href="http://people.irisa.fr/Elisa.Fromont/">Elisa FROMONT</a> about representation learning for more reproducible fMRI analyses. </p> -->
-<!--             <p style="text-align:right;margin-bottom:1cm;">
-               <a href="https://international.univ-rennes1.fr/"><img src="img/univ-rennes1.png" height="50"/></a>
-               <a href="https://www.irisa.fr/en"><img src="img/irisa.png" height="50"/></a>
-               <a href="https://www.inria.fr/en"><img src="img/inria.png" height="50"/></a>
-               <a href="https://team.inria.fr/empenn/"><img src="img/empenn.png" height="50"/></a>
-            </p> -->
-            <a class="twitter-timeline" data-height="400" href="https://twitter.com/ElodieGermani?ref_src=twsrc%5Etfw">Tweets by ElodieGermani</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-         </div>  
-         </div>   
-      </div>
-   </body>
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>Elodie Germani</title>
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+		<!--flat icon css-->
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+		
+		<!-- top-area Start -->
+		<header class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation -->
+			    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+
+			        <div class="container">
+
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+			                <a class="navbar-brand" href="index.html">Elodie Germani</a>
+			            </div><!--/.navbar-header-->
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+			                <li class=" smooth-menu active"></li>
+			                    <li class="fixed-menu"><a href="index.html#Aboutme">About me</a></li>
+			                    <li class="fixed-menu"><a href="projects.html">Projects</a></li>
+			                    <li class="fixed-menu"><a href="publications.html">Publications</a></li>
+			                    <li class="fixed-menu"><a href="outreach.html">Outreach</a></li>
+			                    <li class="fixed-menu"><a href="curriculum.html">Curriculum</a></li>
+			                </ul><!--/.nav -->
+			            </div><!-- /.navbar-collapse -->
+			        </div><!--/.container-->
+			    </nav><!--/nav-->
+			    <!-- End Navigation -->
+			</div><!--/.header-area-->
+
+		    <div class="clearfix"></div>
+
+		</header><!-- /.top-area-->
+		<!-- top-area End -->
+
+		<!--about start -->
+		<section id="Aboutme" class="About me">
+<!-- 			<div class="section-heading text-center">
+				<h2>About me</h2>
+			</div> -->
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="container">
+				<div class="about-content">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="single-about-txt">
+								<h3 style="text-align:justify;">
+									Welcome to my website! 👋 
+								</h3>
+								<p style="text-align:justify;">
+									I am a <b>postdoctoral researcher</b> at <a href="https://www.ukbonn.de/" style="font-size:16px; font-weight:bold">Universitätsklinikum Bonn</a>, with <a href="https://albarqouni.github.io/" style="font-size:16px; font-weight:bold">Pr. Shadi Albarqouni</a>. Previously, I obtained my <b>Ph.D. in Computer Sciences</b> from <a href="https://www.irisa.fr/en" style="font-size:16px; font-weight:bold">Université de Rennes</a>, under the supervision of Dr. <a href="http://camillemaumet.com" style="font-size:16px; font-weight:bold">Camille Maumet</a> and Pr. <a href="http://people.irisa.fr/Elisa.Fromont/" style="font-size:16px; font-weight:bold">Elisa Fromont</a>. 
+									<br>
+									<br>
+									My research focuses on exploring, modelling and building solutions to take into account <b>data variability in medical imaging</b>, in particular in machine learning studies. During my PhD, my goal was to facilitate the <b>re-use of shared data from public databases</b> by taking into account the different sources of variability. In the future, I would like to focus more in the use of real-world data and on the robustness of machine learning models to <b>dataset shifts and privacy attacks</b>. I am also interested in building <b>affordable</b> and <b>adaptable</b> solutions for an universal utility.
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-offset-1 col-sm-4">
+							<div class="single-about-img">
+								<img src="assets/images/about/elodiegermani2.jpg" alt="profile_image">
+								<div class="about-list-icon">
+									<ul>
+										<li>
+											<a href="elodiegermani@gmail.com">
+												<i class="fa fa-envelope" aria-hidden="true" style="font-size:14px"></i>
+											</a>
+
+										</li><!-- / li -->
+										<li>
+											<a href="https://scholar.google.com/citations?user=BTAAgQEAAAAJ&hl=fr">
+												<i class="fa fa-graduation-cap" aria-hidden="true" style="font-size:13px"></i>
+											</a>
+
+										</li><!-- / li -->
+										<li>
+											<a href="https://github.com/elodiegermani">
+												<i class="fa fa-github" aria-hidden="true"></i>
+											</a>
+
+										</li><!-- / li -->
+										<li>
+											<a href="https://x.com/ElodieGermani">
+												<i class="fa fa-twitter" aria-hidden="true"></i>
+											</a>
+
+										</li><!-- / li -->
+										<li>
+											<a href="https://www.linkedin.com/in/elodie-germani-b861021a2/">
+												<i class="fa fa-linkedin" aria-hidden="true"></i>
+											</a>
+
+										</li><!-- / li -->
+									</ul><!-- / ul -->
+								</div><!-- /.about-list-icon -->
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!--/.about-->
+		<!--about end -->
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<!--contact start -->
+		<section id="contact" class="contact">
+			<div class="section-heading text-center">
+				<h2>contact me</h2>
+			</div>
+			<div class="container">
+				<div class="contact-content">
+					<div class="row">
+						<div class="col-md-offset-1 col-md-5 col-sm-6">
+							<div class="single-contact-box">
+								<div class="contact-form">
+									<form>
+										<div class="row">
+											<div class="col-sm-6 col-xs-12">
+												<div class="form-group">
+												  <input type="text" class="form-control" id="name" placeholder="Name*" name="name">
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+											<div class="col-sm-6 col-xs-12">
+												<div class="form-group">
+													<input type="email" class="form-control" id="email" placeholder="Email*" name="email">
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="form-group">
+													<input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="form-group">
+													<textarea class="form-control" rows="8" id="comment" placeholder="Message" ></textarea>
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="single-contact-btn">
+													<a class="contact-btn" href="#" role="button">submit</a>
+												</div><!--/.single-single-contact-btn-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+									</form><!--/form-->
+								</div><!--/.contact-form-->
+							</div><!--/.single-contact-box-->
+						</div><!--/.col-->
+						<div class="col-md-offset-1 col-md-5 col-sm-6">
+							<div class="single-contact-box">
+								<div class="contact-adress">
+									<div class="contact-add-head">
+										<h3>Elodie Germani</h3>
+										<p>Postdoctoral Researcher</p>
+									</div>
+									<div class="contact-add-info">
+										<div class="single-contact-add-info">
+											<h3>email</h3>
+											<p>elodiegermani@gmail.com</p>
+										</div>
+									</div>
+								</div><!--/.contact-adress-->
+							</div><!--/.single-contact-box-->
+						</div><!--/.col-->
+					</div><!--/.row-->
+				</div><!--/.contact-content-->
+			</div><!--/.container-->
+
+		</section><!--/.contact-->
+		<!--contact end -->
+
+		<!--footer-copyright start-->
+		<footer id="footer-copyright" class="footer-copyright">
+			<div class="container">
+				<div class="hm-footer-copyright text-center">
+					<p>
+						&copy; copyright Elodie Germani. 
+					</p><!--/p-->
+				</div><!--/.text-center-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" ></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.footer-copyright-->
+		<!--footer-copyright end-->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+		
+		<!-- jquery.sticky.js -->
+		<script src="assets/js/jquery.sticky.js"></script>
+		
+		<!-- for progress bar start-->
+
+		<!-- progressbar js -->
+		<script src="assets/js/progressbar.js"></script>
+
+		<!-- appear js -->
+		<script src="assets/js/jquery.appear.js"></script>
+
+		<!-- for progress bar end -->
+
+		<!--owl.carousel.js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		
+        
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
 </html>

@@ -1,73 +1,214 @@
+<!doctype html>
+<html class="no-js" lang="en">
 
-<!DOCTYPE html>
-<html>
-   <head>
-      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-      <title>Ongoing projects</title>
-      <link rel="icon" href="img/index.jpg">
-      <link rel="stylesheet" href="files/style.css">
-      <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-   </head>
-   <body>
-      <div id="navigation">
-         <div id="profile">
-            <a><img src="img/elodiegermani.png"></a>
-         </div>
-         <div id="contact">
-            <h1>
-            Elodie <span class="upper">GERMANI</span>
-            <br/>
-            <h2 id="title" class="italic">PhD student</h2>
-            <p>elodiegermani@gmail.com</p>
-            <p>Rennes, France</p>
-            <p class="link">
-               <a href="https://scholar.google.com/citations?user=BTAAgQEAAAAJ&hl=fr"><img id="scholar" src="img/scholar.png" class="external"></a>
-               <a href="https://github.com/elodiegermani"><img id="github" src="img/github.png" class="external"></a>
-               <a href="https://gitlab.inria.fr/egermani"><img id="gitlab" src="img/gitlab.png" class="external"></a>
-               <a href="https://www.linkedin.com/in/elodie-germani-b861021a2/"><img id="linkedin" src="img/linkedin.png" class="external"></a>
-               <a href="https://twitter.com/ElodieGermani"><img id="twitter" src="img/twitter.png" class="external"></a>
-            </p>
-         </div>
-         <br/>
-         <div class="vertical-menu">
-           <a href="index.html">HOME</a>
-           <br/>
-           <a href="cv.html">CV</a>
-           <br/>
-           <a href="publications.html">PUBLICATIONS</a>
-           <br/>
-           <a href="projects.html" class="active">PROJECTS</a>
-           <br/>
-           <a href="mediation.html">OUTREACH</a>
-           <br/>
-         </div>
-         <small>© Inria / Photo B. Fourrier</small>
-      </div>
-      <div id="content">
-         <div id="projects">
-            <h2>Projects</h2>
-            <ul>
-               <li>
-                  <p><b>NARPS Open Pipelines Project</b>
-                     <p>
-                     The goal of the NARPS open pipeline project is to create a codebase reproducing the 70 pipelines of the NARPS project (Botvinik-Nezer et al., 2020) and share this as an open resource for the community. </p>
-                     <p> <i> Project presented at <a href="https://ohbm.github.io/hackathon2022/">OHBM BrainHack 2022</a> and <a href="https://ohbm.github.io/hackathon2023/"> OHBM BrainHack 2023</a>.</i> </p>
-                     <p>
-                     <a href="https://github.com/Inria-Empenn/narps_open_pipelines"> <img id="github" src="img/github.png" class="external" width="20" height="20"> GitHub repository</a> 
-                  </p>
-                  </p>
-               </li>
-               <li>
-                  <p><b>HCP multi pipelines dataset</b>
-                     <p>The goal of the project is to share the contrast and statistic maps for the 6 contrasts of the motor task of the Human Connectome Project for the 1,080 participants of the S1200 release obtained with 24 different analysis pipelines, that are typically used in the literature and that differ on a set of predefined parameters. We also provide group-level contrast and statistic maps of 1,000 randomly sampled groups for each pipeline and contrast. This dataset provide the opportunity to study the impact of analytical variability in fMRI data analysis by representing a wide range of analysis conditions (numerous participants, contrasts and pipelines).
-                     </p>
-                     <p>
-                     <a href="https://gitlab.inria.fr/egermani/hcp_pipelines"> <img id="gitlab" src="img/gitlab.png" class="external" width="20" height="20"> GitLab repository</a> 
-                  </p>
-                  </p>
-               </li>
-            </ul>
-         </div> 
-      </div>
-   </body>
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>Elodie Germani</title>
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+		<!--flat icon css-->
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+		
+		<!-- top-area Start -->
+		<header class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation -->
+			    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+
+			        <div class="container">
+
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+			                <a class="navbar-brand" href="index.html">Elodie Germani</a>
+			            </div><!--/.navbar-header-->
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+			                <li class=" smooth-menu active"></li>
+			                    <li class="fixed-menu"><a href="index.html#Aboutme">About me</a></li>
+			                    <li class="fixed-menu"><a href="projects.html" class="active">Projects</a></li>
+			                    <li class="fixed-menu"><a href="publications.html">Publications</a></li>
+			                    <li class="fixed-menu"><a href="outreach.html">Outreach</a></li>
+			                    <li class="fixed-menu"><a href="curriculum.html">Curriculum</a></li>
+			                </ul><!--/.nav -->
+			            </div><!-- /.navbar-collapse -->
+			        </div><!--/.container-->
+			    </nav><!--/nav-->
+			    <!-- End Navigation -->
+			</div><!--/.header-area-->
+
+		    <div class="clearfix"></div>
+
+		</header><!-- /.top-area-->
+		<!-- top-area End -->
+	
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<section id="Projects" class="Projects">
+			<div class="portfolio-details">
+				<div class="section-heading text-center">
+					<h2>Projects</h2>
+				</div>
+				<div class="container">
+					<div class="portfolio-content">
+						<div class="isotope">
+							<div class="row">
+
+								<div class="col-sm-4">
+									<div class="item" style="height:185px">
+											<a href="https://github.com/elodiegermani/narps_open_pipelines">
+												Narps Open Pipelines
+											</a>
+									</div><!-- /.item -->
+									<div class="item" style="height:185px">
+											<a href="https://github.com/LivingPark-MRI">
+												Living Park
+											</a>
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+
+								<div class="col-sm-4">
+									<div class="item" style="height:400px">
+											<a href="https://publicneuro-catalogue.netlify.app/dataset/PN000003:%20HCP%20multipipelines/V1">
+												HCP Multi-Pipeline
+											</a>
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+
+								<div class="col-sm-4">
+									<div class="item" style="height:185px">
+											<a href="https://github.com/elodiegermani/style-transfer_diffusion">
+												Style transfer
+											</a>
+									</div><!-- /.item -->
+									<div class="item" style="height:185px">
+										<div class="isotope-overlay">
+											<a href="https://gitlab.inria.fr/egermani/self_taught_decoding">
+												Self-taught learning
+											</a>
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+							</div><!-- /.row -->
+						</div><!--/.isotope-->
+					</div><!--/.gallery-content-->
+				</div><!--/.container-->
+			</div><!--/.portfolio-details-->
+		</section>
+
+		<!--footer-copyright start-->
+		<footer id="footer-copyright" class="footer-copyright">
+			<div class="container">
+				<div class="hm-footer-copyright text-center">
+					<p>
+						&copy; copyright Elodie Germani. 
+					</p><!--/p-->
+				</div><!--/.text-center-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" ></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.footer-copyright-->
+		<!--footer-copyright end-->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+		
+		<!-- jquery.sticky.js -->
+		<script src="assets/js/jquery.sticky.js"></script>
+		
+		<!-- for progress bar start-->
+
+		<!-- progressbar js -->
+		<script src="assets/js/progressbar.js"></script>
+
+		<!-- appear js -->
+		<script src="assets/js/jquery.appear.js"></script>
+
+		<!-- for progress bar end -->
+
+		<!--owl.carousel.js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		
+        
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
 </html>
